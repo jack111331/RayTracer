@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ray_tracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/edge/RayTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/edge/RayTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_tracing">
+				<Option output="/home/edge/RayTracing/ray_tracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edge/RayTracing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/edge/RayTracing/./include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 ray_tracing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_tracing/fast">
+				<Option output="/home/edge/RayTracing/ray_tracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/edge/RayTracing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/edge/RayTracing/./include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 ray_tracing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/edge/RayTracing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/edge/RayTracing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/edge/RayTracing/Camera.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Dielectric.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/HitableList.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Lambertian.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Metal.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Ray.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Sphere.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Utility.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/Vector.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Camera.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Dielectric.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Hitable.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/HitableList.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Lambertian.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Material.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Metal.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Ray.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Sphere.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Utility.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/include/Vector.h">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/main.cpp">
+			<Option target="ray_tracing"/>
+		</Unit>
+		<Unit filename="/home/edge/RayTracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
